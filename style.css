@@ -1,0 +1,271 @@
+body {
+  background: #d4d6d0;
+}
+#index-img {
+  height: 300px;
+}
+
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 2em;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .features {
+    margin: 0;
+  }
+}
+
+.navbar {
+  background:#222222;
+  overflow: scroll;
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+  opacity: 0.5;
+}
+.nav-link:hover {
+  color: #fff;
+  font-size: 110%;
+  opacity: 1;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#contact{
+  color: #fff;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  size:
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+  background-color: #800020;
+  border: 1px solid #800020;
+  color: #fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 55px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+  /* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+  @media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+ .logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  opacity: 0.5;
+}
+
+.logo-image:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
