@@ -181,9 +181,6 @@ header .overlay {
   header {
     background: url('') black no-repeat center center scroll;
   }
-  header video {
-    display: none;
-  }
 }
 
   /* stylelint-disable selector-list-comma-newline-after */
@@ -305,7 +302,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  background: #F4F4F4;
   display: flex;
   align-items: center;
   justify-content: space-between;
