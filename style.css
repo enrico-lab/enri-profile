@@ -37,6 +37,10 @@ body {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
+.navbar-brand {
+  padding-bottom: .5125rem;
+  padding-top: 0;
+}
 .nav-link,
 .navbar-brand {
   color: #fff;
@@ -48,7 +52,6 @@ body {
 }
 .nav-link:hover {
   color: #fff;
-  /*font-size: 110%;*/
   opacity: 1;
 }
 .navbar-collapse {
@@ -57,7 +60,7 @@ body {
 
 .features {
   margin: 4em auto;
-  padding: 1em;
+  padding: 1em 10em;
   position: relative;
 }
 .feature-title {
@@ -276,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   height: 100px;
   color: rgba(0,0,0,0.3);
-  padding-right: 20%;
+  /*padding-right: 20%;*/
 }
 .footer-links {
   display: flex;
@@ -296,28 +299,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #D23333;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa {
-  margin-left-left: 0 !important;
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
 .social-media {
   display: grid;
 }
 
 .follow {
-  color:#fff;
   /*padding-left: 10px;*/
+  font-size: 16px;
+  color: #ccc;
   margin-bottom: 0 !important;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: flex-end;
 }
 
