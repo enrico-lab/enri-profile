@@ -275,8 +275,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  padding: 0px 50px;
   color: rgba(0,0,0,0.3);
+  padding-right: 20%;
 }
 .footer-links {
   display: flex;
@@ -302,6 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa {
+  margin-left-left: 0 !important;
   padding: 20px;
   font-size: 30px;
   width: 70px;
@@ -310,4 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
+.social-media {
+  display: grid;
+}
+
+.follow {
+  color:#fff;
+  /*padding-left: 10px;*/
+  margin-bottom: 0 !important;
+}
 
