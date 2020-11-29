@@ -16,7 +16,7 @@ body {
   }
 
   .description h1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .description p {
@@ -30,7 +30,7 @@ body {
 
 section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .navbar {
@@ -112,10 +112,8 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('') black no-repeat center center scroll;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .nav-scroller {
@@ -159,7 +157,7 @@ header .overlay {
   .h-md-250 { height: 250px; }
 }
 
- .logo-image{
+.logo-image{
   width: 46px;
   height: 46px;
   border-radius: 50%;
@@ -191,7 +189,7 @@ header .overlay {
 }
 
 .card-product h2 {
-  font-size: 3vw;
+  /*font-size: 3vw;*/
   font-weight: bold;
   margin-left: 10%;
 }
@@ -213,10 +211,13 @@ header .overlay {
 
 .title {
   margin-top: 10%;
+  color: #fff;
+  align-items: center;
 }
 
 .title h1 {
   font-size: 15vw;
+  color: #fff;
 }
 
 .web {
@@ -250,14 +251,14 @@ header .overlay {
 .social-grid {
     grid-column-gap: 50px;
     grid-row-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 .collection-list, .social-grid {
     grid-template-rows: auto;
 }
 .w-layout-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-row-gap: 2%;
     grid-column-gap: 2%;
 }
